@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <!-- Styles-->
+        <link rel="stylesheet" type="text/css" href="./css/libs.css" />
+        <link rel="stylesheet" type="text/css" href="./vendor/fontawesome-pro/css/all.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/app.css" />
+        <!-- Scripts-->
+        <script src="./js/libs.js" defer="defer"></script>
+        <script src="./js/app.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="page">
+            <!-- header-->
+            <header class="header">
+                <nav class="top-page">
+                    <div class="container">
+                        <div class="top-page__inner">
+                            <div class="top-page__text">Chào mừng bạn đến với Trung Tâm Sửa Chữa Ôtô Quang Đức</div>
+                            <div class="top-page__socials"><a href="#!"><i class="fab fa-facebook-f"></i></a><a href="#!"><i class="fab fa-twitter"></i></a><a href="#!"><i class="fab fa-google-plus-g"></i></a><a href="#!"><i class="fab fa-youtube"></i></a></div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header__wrapper">
+                    <div class="container">
+                        <div class="header__inner"><a class="header__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                            <div class="header__elements">
+                                <section class="navbar js-navbar">
+                                    <div class="navbar__backdrop js-navbar-toggle"></div>
+                                    <div class="navbar__wrapper">
+                                        <div class="navbar__header"><a class="navbar__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                                            <button class="btn-toggle js-navbar-toggle ms-auto"></button>
+                                        </div>
+                                        <div class="navbar__body">
+                                            <form class="search">
+                                                <div class="input-group">
+                                                    <input class="form-control" type="text" placeholder="Tìm kiếm..." />
+                                                    <button class="input-group-text"><i class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                            <ul class="menu menu-root">
+                                                <li class="menu-item"><a class="menu-link active" href="./index.html">Trang chủ</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./about.html">Giới thiệu</a>
+                                                </li>
+                                                <li class="menu-item menu-item-group"><a class="menu-link" href="./products.html">Sản phẩm</a><span class="menu-toggle"></span>
+                                                    <ul class="menu menu-sub">
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Cứu hộ giao thông</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Tư vấn bảo hiểm</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Bảo trì, bảo dưỡng</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Dịch vụ gầm máy</a><span class="menu-toggle"></span>
+                                                            <ul class="menu menu-sub menu-sub-2">
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./news.html">Tin tức</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./contact.html">Liên hệ</a>
+                                                </li>
+                                            </ul>
+                                            <div class="h-info">
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-map-marker.png" alt="" />
+                                                    <div class="h-info__label">Địa chỉ showroom</div>
+                                                    <div class="h-info__text">1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội, Vietnam</div>
+                                                </div>
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-clock.png" alt="" />
+                                                    <div class="h-info__label">Thời gian làm việc</div>
+                                                    <div class="h-info__text">8h00 - 17h00, thứ 2 - thứ 7</div>
+                                                </div>
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-phone-call.png" alt="" />
+                                                    <div class="h-info__label">Hotline tư vấn</div>
+                                                    <div class="h-info__text h-info__text--hotline"><a href="tel:0962677726">0962677726</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <button class="btn-toggle d-xl-none js-navbar-toggle ms-3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navigation">
+                    <div class="container">
+                        <div class="navigation__inner">
+                            <button class="search-toggle" type="button"><i class="fal fa-search"></i></button>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="page__content">
+                <!-- main content-->
+                <section class="banner"><img class="banner__bg" src="./images/banner-bg.jpg" alt="" />
+                    <div class="container">
+                        <div class="banner__title">Sản phẩm</div>
+                        <div class="banner__breadcrumb">
+                            <ol class="breadcrumb breadcrumb--white">
+                                <li class="breadcrumb-item"><a class="link-unstyled" href="#!">Trang chủ</a></li>
+                                <li class="breadcrumb-item"><a class="link-unstyled" href="#!">Sản phẩm</a></li>
+                                <li class="breadcrumb-item active">Ắc quy ô tô</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="container">
+                        <div class="row g-30">
+                            <div class="col-lg-6">
+                                <article class="preview">
+                                    <div class="preview__main">
+                                        <div class="preview-slider">
+                                            <div class="preview-slider__container swiper-container">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="preview-slider__frame"><img src="http://placekitten.com/1000/750" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="preview-slider__frame"><img src="http://placekitten.com/1000/751" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="preview-slider__frame"><img src="http://placekitten.com/1000/752" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="preview-slider__frame"><img src="http://placekitten.com/1000/753" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="preview-slider__frame"><img src="http://placekitten.com/1000/754" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="preview-slider__frame"><img src="http://placekitten.com/1000/755" alt="" /></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="preview__thumbs">
+                                        <div class="thumb-slider">
+                                            <div class="thumb-slider__prev"><i class="fal fa-angle-up"></i></div>
+                                            <div class="thumb-slider__next"><i class="fal fa-angle-down"></i></div>
+                                            <div class="thumb-slider__container swiper-container">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="thumb-slider__frame"><img src="http://placekitten.com/1000/750" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="thumb-slider__frame"><img src="http://placekitten.com/1000/751" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="thumb-slider__frame"><img src="http://placekitten.com/1000/752" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="thumb-slider__frame"><img src="http://placekitten.com/1000/753" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="thumb-slider__frame"><img src="http://placekitten.com/1000/754" alt="" /></div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-white">
+                                                        <div class="thumb-slider__frame"><img src="http://placekitten.com/1000/755" alt="" /></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-6">
+                                <section class="pd-info">
+                                    <h1 class="pd-info__title">Evening Leather Bag</h1>
+                                    <div class="pd-info__stars">
+                                        <div class="stars stars--5"></div><small class="ms-2">(123 customers reviewed)</small>
+                                    </div>
+                                    <div class="pd-info__info">
+                                        <div><strong>Category:</strong> Sofa & so far</div>
+                                        <div class="text-success">Free Shipping</div>
+                                    </div>
+                                    <div class="pd-info__price">
+                                        <label>Price:</label>1,234,567₫
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="fw-700">Color:</label>
+                                        <div class="color-picker">
+                                            <label class="color-picker__item">
+                                                <input type="radio" name="color-picker" /><span style="background-color: #f00;"></span>
+                                            </label>
+                                            <label class="color-picker__item">
+                                                <input type="radio" name="color-picker" /><span style="background-color: #0ff;"></span>
+                                            </label>
+                                            <label class="color-picker__item">
+                                                <input type="radio" name="color-picker" /><span style="background-color: #f0f;"></span>
+                                            </label>
+                                            <label class="color-picker__item">
+                                                <input type="radio" name="color-picker" /><span style="background-color: #0f0;"></span>
+                                            </label>
+                                            <label class="color-picker__item">
+                                                <input type="radio" name="color-picker" /><span style="background-color: #00f;"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="fw-700">Size:</label>
+                                        <div class="size-picker">
+                                            <label class="size-picker__item">
+                                                <input type="radio" name="size-picker" /><span>XS</span>
+                                            </label>
+                                            <label class="size-picker__item">
+                                                <input type="radio" name="size-picker" /><span>S</span>
+                                            </label>
+                                            <label class="size-picker__item">
+                                                <input type="radio" name="size-picker" /><span>M</span>
+                                            </label>
+                                            <label class="size-picker__item">
+                                                <input type="radio" name="size-picker" /><span>L</span>
+                                            </label>
+                                            <label class="size-picker__item">
+                                                <input type="radio" name="size-picker" /><span>XL</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="pd-info__custom"></div>
+                                    <div class="pd-info__btns"><a class="pd-info__btn" href="#!">Buy Now</a><a class="pd-info__btn pd-info__btn--yellow" href="#!">Add To Cart</a></div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section bg-light">
+                    <div class="container">
+                        <ul class="nav pd-tabs">
+                            <li class="nav-item"><a class="nav-link active" href="#pd-tab-1" data-bs-toggle="tab">Chi tiết sản phẩm</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pd-tab-2" data-bs-toggle="tab">Thông số chi tiết</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="pd-tab-1">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam aperiam dicta, excepturi assumenda praesentium nostrum veritatis aspernatur necessitatibus voluptatem! Asperiores tenetur fuga perspiciatis aliquam mollitia quos, saepe placeat aspernatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium doloribus esse eum pariatur in modi nesciunt tempore asperiores earum itaque cum, libero atque illo quas expedita! Sed neque voluptatibus recusandae.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam aperiam dicta, excepturi assumenda praesentium nostrum veritatis aspernatur necessitatibus voluptatem! Asperiores tenetur fuga perspiciatis aliquam mollitia quos, saepe placeat aspernatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium doloribus esse eum pariatur in modi nesciunt tempore asperiores earum itaque cum, libero atque illo quas expedita! Sed neque voluptatibus recusandae.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam aperiam dicta, excepturi assumenda praesentium nostrum veritatis aspernatur necessitatibus voluptatem! Asperiores tenetur fuga perspiciatis aliquam mollitia quos, saepe placeat aspernatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium doloribus esse eum pariatur in modi nesciunt tempore asperiores earum itaque cum, libero atque illo quas expedita! Sed neque voluptatibus recusandae.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam aperiam dicta, excepturi assumenda praesentium nostrum veritatis aspernatur necessitatibus voluptatem! Asperiores tenetur fuga perspiciatis aliquam mollitia quos, saepe placeat aspernatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium doloribus esse eum pariatur in modi nesciunt tempore asperiores earum itaque cum, libero atque illo quas expedita! Sed neque voluptatibus recusandae.</p>
+                            </div>
+                            <div class="tab-pane fade" id="pd-tab-2">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>STT</th>
+                                                <th>Tên</th>
+                                                <th>Thông số 1</th>
+                                                <th>Thông số 2</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                                <td>Tên thông số</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="container">
+                        <h2 class="section__title">Sản phẩm đã xem</h2>
+                        <div class="product-slider">
+                            <div class="product-slider__prev"><i class="fal fa-angle-left"></i></div>
+                            <div class="product-slider__next"><i class="fal fa-angle-right"></i></div>
+                            <div class="product-slider__container swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- footer-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__grid">
+                        <div class="footer__col"><a class="footer__logo" href="./index.html"><img src="./images/logo-footer.png" alt="" /></a>
+                            <div class="footer__name">GARAGE QUANG ĐỨC</div>
+                            <ul class="f-contact">
+                                <li><span class="f-contact__icon"><i class="fas fa-home"></i></span><span><strong>Trụ sở:</strong> 1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội, Vietnam</span></li>
+                                <li><span class="f-contact__icon"><i class="fas fa-phone"></i></span><span><strong>Hotline:</strong> <a href="tel:0962677726">0962677726</a></span></li>
+                                <li><span class="f-contact__icon"><i class="fas fa-envelope"></i></span><span><strong>Email:</strong> <a href="mailto:Garaquangduc1075@gmail.com">Garaquangduc1075@gmail.com</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__heading">Thông tin công ty</div>
+                            <ul class="f-menu">
+                                <li><a href="#!">Trang chủ</a></li>
+                                <li><a href="#!">Giới thiệu</a></li>
+                                <li><a href="#!">Dịch vụ</a></li>
+                                <li><a href="#!">Tin tức</a></li>
+                                <li><a href="#!">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__heading">Dịch vụ</div>
+                            <ul class="f-menu">
+                                <li><a href="#!">Cứu hộ giao thông</a></li>
+                                <li><a href="#!">Tư vấn bảo hiểm</a></li>
+                                <li><a href="#!">Bảo trì, bảo dưỡng</a></li>
+                                <li><a href="#!">Dịch vụ gầm máy</a></li>
+                                <li><a href="#!">Vệ sinh xe</a></li>
+                                <li><a href="#!">Dịch vụ đồng sơn</a></li>
+                                <li><a href="#!">Phục hồi xe tai nạn</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="f-time">
+                                <div class="f-time__clock"><img src="./images/clock.png" alt="" /></div>
+                                <div class="f-time__heading">GIỜ LÀM VIỆC</div>
+                                <div class="f-time__item"><span>Thứ 2</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 3</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 4</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 5</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 6</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 7</span><span>8h00 - 17h00</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__payments"><a href="#!"><img src="./images/icon-mastercard.png" alt="" /></a><a href="#!"><img src="./images/icon-visa.png" alt="" /></a><a href="#!"><img src="./images/icon-maestro.png" alt="" /></a><a href="#!"><img src="./images/icon-paypal.png" alt="" /></a></div>
+                    <div class="footer__copyright">@ Bản quyền thuộc về <a href="#!">Garage Quang Đức</a> | Cung cấp bởi <a href="#!">Sapo</a></div>
+                </div>
+            </footer>
+        </div>
+        <!-- modals + sticky widgets-->
+        <button class="btn-movetop" type="button" data-target="body"><i class="fa fa-arrow-up"></i></button>
+    </body>
+</html>

@@ -1,0 +1,273 @@
+@mixin slider-nav-1 {
+  &__prev,
+  &__next {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    font-size: 18px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    @include shadow("");
+    transition: 0.3s ease-out;
+
+    &:hover {
+      @include shadow("");
+      transform: translateY(-50%) scale(1.2);
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &__next {
+    left: auto;
+    right: 3%;
+  }
+
+  &:hover &__prev,
+  &:hover &__next {
+    background-color: rgba(#fff, 1);
+  }
+
+  @media (min-width: 1200px) {
+    &__prev {
+      left: 0;
+      opacity: 0;
+    }
+
+    &__next {
+      right: 0;
+      opacity: 0;
+    }
+
+    &:hover &__prev {
+      left: 3%;
+      opacity: 1;
+    }
+
+    &:hover &__next {
+      right: 3%;
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 575px) {
+    &__prev,
+    &__next {
+      background-color: rgba(#fff, 0.5);
+    }
+  }
+}
+
+@mixin slider-nav-2 {
+  &__prev,
+  &__next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid $border-color;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease-out;
+
+    &:hover {
+      @include shadow("");
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    &.swiper-button-disabled {
+      display: none;
+    }
+  }
+
+  &__next {
+    left: 100%;
+  }
+}
+
+@mixin slider-nav-3 {
+  &__prev,
+  &__next {
+    padding: 10px 5px;
+    color: $secondary;
+    font-size: 35px;
+    line-height: 1;
+    color: $text-dark;
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    z-index: 10;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &.swiper-button-disabled {
+      display: none;
+    }
+  }
+
+  &__next {
+    left: auto;
+    right: -40px;
+  }
+
+  @include media-breakpoint-down(xl) {
+    &__prev,
+    &__next {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    &__prev,
+    &__next {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      background-color: $white;
+      border: 1px solid $border-color;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    &__prev {
+      left: -15px;
+    }
+
+    &__next {
+      right: -15px;
+    }
+  }
+}
+
+.banner-slider {
+  position: relative;
+  z-index: 1;
+  @include slider-nav-1();
+
+  &__frame {
+    height: calc(100vh - 203px);
+    max-height: 40vw;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+
+  @include media-breakpoint-down(xxl) {
+    &__frame {
+      height: calc(100vh - 161px);
+    }
+  }
+
+  @include media-breakpoint-down(xl) {
+    &__frame {
+      height: calc(100vh - 112px);
+    }
+  }
+}
+
+.service-slider {
+  position: relative;
+  @include slider-nav-2();
+}
+
+.feedback-slider {
+  position: relative;
+  z-index: 1;
+  margin: -10px;
+  padding-bottom: 30px;
+
+  .swiper-slide {
+    padding: 10px;
+  }
+
+  &__pagination {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .swiper-pagination-bullet {
+      opacity: 1;
+      background-color: $white;
+      width: 20px;
+      height: 4px;
+      border-radius: 2px;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      &-active {
+        background-color: #ffc107;
+      }
+    }
+  }
+}
+
+.expert-slider {
+  position: relative;
+  z-index: 1;
+
+  @include slider-nav-3();
+}
+
+.procedure-slider {
+  position: relative;
+  z-index: 1;
+
+  @include slider-nav-2();
+
+  &__prev,
+  &__next {
+    border-color: $white;
+    color: $white;
+    background: 0;
+
+    &.swiper-button-disabled {
+      display: none;
+    }
+  }
+}
+
+.product-slider {
+  position: relative;
+  z-index: 1;
+
+  @include slider-nav-2();
+}

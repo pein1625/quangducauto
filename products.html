@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <!-- Styles-->
+        <link rel="stylesheet" type="text/css" href="./css/libs.css" />
+        <link rel="stylesheet" type="text/css" href="./vendor/fontawesome-pro/css/all.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/app.css" />
+        <!-- Scripts-->
+        <script src="./js/libs.js" defer="defer"></script>
+        <script src="./js/app.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="page">
+            <!-- header-->
+            <header class="header">
+                <nav class="top-page">
+                    <div class="container">
+                        <div class="top-page__inner">
+                            <div class="top-page__text">Chào mừng bạn đến với Trung Tâm Sửa Chữa Ôtô Quang Đức</div>
+                            <div class="top-page__socials"><a href="#!"><i class="fab fa-facebook-f"></i></a><a href="#!"><i class="fab fa-twitter"></i></a><a href="#!"><i class="fab fa-google-plus-g"></i></a><a href="#!"><i class="fab fa-youtube"></i></a></div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header__wrapper">
+                    <div class="container">
+                        <div class="header__inner"><a class="header__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                            <div class="header__elements">
+                                <section class="navbar js-navbar">
+                                    <div class="navbar__backdrop js-navbar-toggle"></div>
+                                    <div class="navbar__wrapper">
+                                        <div class="navbar__header"><a class="navbar__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                                            <button class="btn-toggle js-navbar-toggle ms-auto"></button>
+                                        </div>
+                                        <div class="navbar__body">
+                                            <form class="search">
+                                                <div class="input-group">
+                                                    <input class="form-control" type="text" placeholder="Tìm kiếm..." />
+                                                    <button class="input-group-text"><i class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                            <ul class="menu menu-root">
+                                                <li class="menu-item"><a class="menu-link active" href="./index.html">Trang chủ</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./about.html">Giới thiệu</a>
+                                                </li>
+                                                <li class="menu-item menu-item-group"><a class="menu-link" href="./products.html">Sản phẩm</a><span class="menu-toggle"></span>
+                                                    <ul class="menu menu-sub">
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Cứu hộ giao thông</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Tư vấn bảo hiểm</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Bảo trì, bảo dưỡng</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Dịch vụ gầm máy</a><span class="menu-toggle"></span>
+                                                            <ul class="menu menu-sub menu-sub-2">
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./news.html">Tin tức</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./contact.html">Liên hệ</a>
+                                                </li>
+                                            </ul>
+                                            <div class="h-info">
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-map-marker.png" alt="" />
+                                                    <div class="h-info__label">Địa chỉ showroom</div>
+                                                    <div class="h-info__text">1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội, Vietnam</div>
+                                                </div>
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-clock.png" alt="" />
+                                                    <div class="h-info__label">Thời gian làm việc</div>
+                                                    <div class="h-info__text">8h00 - 17h00, thứ 2 - thứ 7</div>
+                                                </div>
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-phone-call.png" alt="" />
+                                                    <div class="h-info__label">Hotline tư vấn</div>
+                                                    <div class="h-info__text h-info__text--hotline"><a href="tel:0962677726">0962677726</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <button class="btn-toggle d-xl-none js-navbar-toggle ms-3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navigation">
+                    <div class="container">
+                        <div class="navigation__inner">
+                            <button class="search-toggle" type="button"><i class="fal fa-search"></i></button>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="page__content">
+                <!-- main content-->
+                <section class="banner"><img class="banner__bg" src="./images/banner-bg.jpg" alt="" />
+                    <div class="container">
+                        <div class="banner__title">Sản phẩm</div>
+                        <div class="banner__breadcrumb">
+                            <ol class="breadcrumb breadcrumb--white">
+                                <li class="breadcrumb-item"><a class="link-unstyled" href="#!">Trang chủ</a></li>
+                                <li class="breadcrumb-item active">Sản phẩm</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="container">
+                        <div class="row g-30">
+                            <div class="col-lg-8 col-xl-9 order-lg-1">
+                                <h1 class="section__title text-start mb-30">Sản phẩm</h1>
+                                <div class="row g-3 col-sm-20">
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-xl-3">
+                                        <div class="product"><a class="product__frame" href="./product-detail.html"><img src="./images/product-1.jpg" alt="" /></a>
+                                            <h3 class="product__name"><a href="./product-detail.html">Ắc quy ô tô</a></h3>
+                                            <div class="product__price">1,234,567₫</div>
+                                            <div class="product__stars stars stars--5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <nav class="d-flex justify-content-center mt-30 mt-xl-60">
+                                    <ul class="pagination">
+                                        <li class="page-item disabled"><a class="page-link" href="#!"><i class="fal fa-angle-left"></i></a></li>
+                                        <li class="page-item active"><a class="page-link" href="#!">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#!">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#!">5</a></li>
+                                        <li class="page-item"><a class="page-link" href="#!"><i class="fal fa-angle-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-lg-4 col-xl-3">
+                                <section class="aside">
+                                    <h2 class="aside__title">Liên kết</h2>
+                                    <ul class="menu menu-aside">
+                                        <li class="menu-item"><a class="menu-link" href="#!">Trang chủ</a></li>
+                                        <li class="menu-item"><a class="menu-link" href="#!">Giới thiệu</a></li>
+                                        <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Dịch vụ</a><span class="menu-toggle"></span>
+                                            <ul class="menu-sub">
+                                                <li class="menu-item"><a class="menu-link" href="#!">Cứu hộ giao thông</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Tư vấn bảo hiểm</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Bảo trì, bảo dưỡng</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Dịch vụ gầm máy</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Vệ sinh xe</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a class="menu-link" href="#!">Tin tức</a></li>
+                                        <li class="menu-item"><a class="menu-link" href="#!">Liên hệ</a></li>
+                                    </ul>
+                                </section>
+                                <section class="aside">
+                                    <h2 class="aside__title">Sản phẩm nổi bật</h2>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="aside">
+                                    <h2 class="aside__title">Tags</h2>
+                                    <nav class="tags"><a class="tags__item" href="#!">ắc quy</a><a class="tags__item" href="#!">ắc quy ô tô</a><a class="tags__item" href="#!">bảo dưỡng</a><a class="tags__item" href="#!">bảo hiểm</a><a class="tags__item" href="#!">bảo hiểm bắt buộc</a><a class="tags__item" href="#!">bảo hiểm bắt buộc xe ô tô phải có</a>
+                                    </nav>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- footer-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__grid">
+                        <div class="footer__col"><a class="footer__logo" href="./index.html"><img src="./images/logo-footer.png" alt="" /></a>
+                            <div class="footer__name">GARAGE QUANG ĐỨC</div>
+                            <ul class="f-contact">
+                                <li><span class="f-contact__icon"><i class="fas fa-home"></i></span><span><strong>Trụ sở:</strong> 1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội, Vietnam</span></li>
+                                <li><span class="f-contact__icon"><i class="fas fa-phone"></i></span><span><strong>Hotline:</strong> <a href="tel:0962677726">0962677726</a></span></li>
+                                <li><span class="f-contact__icon"><i class="fas fa-envelope"></i></span><span><strong>Email:</strong> <a href="mailto:Garaquangduc1075@gmail.com">Garaquangduc1075@gmail.com</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__heading">Thông tin công ty</div>
+                            <ul class="f-menu">
+                                <li><a href="#!">Trang chủ</a></li>
+                                <li><a href="#!">Giới thiệu</a></li>
+                                <li><a href="#!">Dịch vụ</a></li>
+                                <li><a href="#!">Tin tức</a></li>
+                                <li><a href="#!">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__heading">Dịch vụ</div>
+                            <ul class="f-menu">
+                                <li><a href="#!">Cứu hộ giao thông</a></li>
+                                <li><a href="#!">Tư vấn bảo hiểm</a></li>
+                                <li><a href="#!">Bảo trì, bảo dưỡng</a></li>
+                                <li><a href="#!">Dịch vụ gầm máy</a></li>
+                                <li><a href="#!">Vệ sinh xe</a></li>
+                                <li><a href="#!">Dịch vụ đồng sơn</a></li>
+                                <li><a href="#!">Phục hồi xe tai nạn</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="f-time">
+                                <div class="f-time__clock"><img src="./images/clock.png" alt="" /></div>
+                                <div class="f-time__heading">GIỜ LÀM VIỆC</div>
+                                <div class="f-time__item"><span>Thứ 2</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 3</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 4</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 5</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 6</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 7</span><span>8h00 - 17h00</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__payments"><a href="#!"><img src="./images/icon-mastercard.png" alt="" /></a><a href="#!"><img src="./images/icon-visa.png" alt="" /></a><a href="#!"><img src="./images/icon-maestro.png" alt="" /></a><a href="#!"><img src="./images/icon-paypal.png" alt="" /></a></div>
+                    <div class="footer__copyright">@ Bản quyền thuộc về <a href="#!">Garage Quang Đức</a> | Cung cấp bởi <a href="#!">Sapo</a></div>
+                </div>
+            </footer>
+        </div>
+        <!-- modals + sticky widgets-->
+        <button class="btn-movetop" type="button" data-target="body"><i class="fa fa-arrow-up"></i></button>
+    </body>
+</html>

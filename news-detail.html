@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <!-- Styles-->
+        <link rel="stylesheet" type="text/css" href="./css/libs.css" />
+        <link rel="stylesheet" type="text/css" href="./vendor/fontawesome-pro/css/all.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/app.css" />
+        <!-- Scripts-->
+        <script src="./js/libs.js" defer="defer"></script>
+        <script src="./js/app.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="page">
+            <!-- header-->
+            <header class="header">
+                <nav class="top-page">
+                    <div class="container">
+                        <div class="top-page__inner">
+                            <div class="top-page__text">Chào mừng bạn đến với Trung Tâm Sửa Chữa Ôtô Quang Đức</div>
+                            <div class="top-page__socials"><a href="#!"><i class="fab fa-facebook-f"></i></a><a href="#!"><i class="fab fa-twitter"></i></a><a href="#!"><i class="fab fa-google-plus-g"></i></a><a href="#!"><i class="fab fa-youtube"></i></a></div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header__wrapper">
+                    <div class="container">
+                        <div class="header__inner"><a class="header__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                            <div class="header__elements">
+                                <section class="navbar js-navbar">
+                                    <div class="navbar__backdrop js-navbar-toggle"></div>
+                                    <div class="navbar__wrapper">
+                                        <div class="navbar__header"><a class="navbar__logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                                            <button class="btn-toggle js-navbar-toggle ms-auto"></button>
+                                        </div>
+                                        <div class="navbar__body">
+                                            <form class="search">
+                                                <div class="input-group">
+                                                    <input class="form-control" type="text" placeholder="Tìm kiếm..." />
+                                                    <button class="input-group-text"><i class="far fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                            <ul class="menu menu-root">
+                                                <li class="menu-item"><a class="menu-link active" href="./index.html">Trang chủ</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./about.html">Giới thiệu</a>
+                                                </li>
+                                                <li class="menu-item menu-item-group"><a class="menu-link" href="./products.html">Sản phẩm</a><span class="menu-toggle"></span>
+                                                    <ul class="menu menu-sub">
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Cứu hộ giao thông</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Tư vấn bảo hiểm</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Bảo trì, bảo dưỡng</a>
+                                                        </li>
+                                                        <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Dịch vụ gầm máy</a><span class="menu-toggle"></span>
+                                                            <ul class="menu menu-sub menu-sub-2">
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                                <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./news.html">Tin tức</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./contact.html">Liên hệ</a>
+                                                </li>
+                                            </ul>
+                                            <div class="h-info">
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-map-marker.png" alt="" />
+                                                    <div class="h-info__label">Địa chỉ showroom</div>
+                                                    <div class="h-info__text">1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội, Vietnam</div>
+                                                </div>
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-clock.png" alt="" />
+                                                    <div class="h-info__label">Thời gian làm việc</div>
+                                                    <div class="h-info__text">8h00 - 17h00, thứ 2 - thứ 7</div>
+                                                </div>
+                                                <div class="h-info__item"><img class="h-info__icon" src="./images/icon-phone-call.png" alt="" />
+                                                    <div class="h-info__label">Hotline tư vấn</div>
+                                                    <div class="h-info__text h-info__text--hotline"><a href="tel:0962677726">0962677726</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <button class="btn-toggle d-xl-none js-navbar-toggle ms-3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navigation">
+                    <div class="container">
+                        <div class="navigation__inner">
+                            <button class="search-toggle" type="button"><i class="fal fa-search"></i></button>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="page__content">
+                <!-- main content-->
+                <section class="banner"><img class="banner__bg" src="./images/banner-bg.jpg" alt="" />
+                    <div class="container">
+                        <div class="banner__title">Tin tức</div>
+                        <div class="banner__breadcrumb">
+                            <ol class="breadcrumb breadcrumb--white">
+                                <li class="breadcrumb-item"><a class="link-unstyled" href="#!">Trang chủ</a></li>
+                                <li class="breadcrumb-item"><a class="link-unstyled" href="#!">Tin tức</a></li>
+                                <li class="breadcrumb-item active">PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="container">
+                        <div class="row g-30">
+                            <div class="col-lg-8 col-xl-9 order-lg-1">
+                                <article class="post"><img class="d-block w-100 mb-30" src="./images/post-banner.webp" alt="">
+                                    <h1 class="post-title">PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI</h1>
+                                    <div class="post-info"><i class="fal fa-calendar-alt me-2"></i>Thứ Mon, 07/03/2022</div>
+                                    <div class="post-content">
+                                        <p>Trong quá trình di chuyển không may bị va quệt, hư hỏng phần đầu xe và phần sau đuôi.<br>Chủ xe Mazda 6 màu đỏ đã tìm đến Garage Quang Đức để Phục hồi xe bị va chạm.<br>Sơn xước dăm lại những vị trí bị xước móp hư hỏng.<br>Bảo dưỡng định kì đã tới mốc 40.000km</p>
+                                        <p>SƠN CHÍNH HÃNG NIPPON - BẢO HÀNH 1 NĂM - CHUẨN MÀU</p>
+                                        <p>Sơn xóa xước dăm, đổi màu, lazang, Bảo hiểm thân vỏ, sơn quây xe không lo về giá - Yên tâm về chất lượng PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI</p>
+                                        <p>- Sử dụng 100% sơn NIPPON, RM chính hãng.. Bảo Hành 1 năm<br>- Sơn xe đẹp căng bóng như mới.<br>- Chi phí sơn gò tiết kiệm.<br>- Sơn xe bảo hành không bong tróc, không phai phai màu.</p>
+                                        <p class="text-center"><img src="./images/post-img-1.jpg" alt=""></p>
+                                        <p class="text-center"><img src="./images/post-img-2.jpg" alt=""></p>
+                                        <p>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Tư vấn sửa chữa, báo giá miễn phí.</p>
+                                        <p>* Hình ảnh xe trước khi bị va chạm.</p>
+                                        <p>* Hình ảnh sau khi được Gò nắn Phục hồi căn chỉnh lại phần đầu và đuôi xe.<br>- Sơn lại theo code màu chuẩn theo xe.<br>- Đánh Bóng bằng xi 3M.<br>- Rửa dọn, hút bụi giao xe..</p>
+                                        <p class="text-center"><img src="./images/post-img-3.jpg" alt=""></p>
+                                        <p class="text-center"><img src="./images/post-img-4.jpg" alt=""></p>
+                                        <p>QuangDucAuto chuyên:<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Phục hồi - Trùng tu xe tai nạn, va chạm.<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Sơn gò xước dăm, móp méo quanh xe.<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Sơn đổi màu - Sơn lại màu gốc,Sơn Lazang...<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Bảo Dưỡng định kỳ - Đại tu máy - Kiểm tra tổng thể xe.<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Hỗ trợ thủ tục Bảo Hiểm Thân Vỏ - TNDS tất cả các hãng.<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Tư vấn Sửa Chữa Miễn Phí - Tận Tâm Với Khách Hàng - Bảo Hành Uy Tín - Chăm Sóc Trọn Đời - Cạnh Tranh Giá Thành - Thời Gian Nhanh Nhất ... đã làm nên thương hiệu QUANGDUCAUTO<br>*********************************************************************<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Hotline / Zalo: 0962677726<br>PHỤC HỒI MAZDA 6 VA CHẠM VỠ ĐÈN PHA - MÓP ĐUÔI HÔNG SAU ĐẸP NHƯ MỚI Địa chỉ: 1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội.</p>
+                                    </div>
+                                </article>
+                                <nav class="mt-40"><img src="./images/share-btns.png" alt=""></nav>
+                                <section class="relate-post mt-40">
+                                    <h2 class="relate-post__title">Bài viết liên quan</h2>
+                                    <ul class="relate-post__menu">
+                                        <li><a href="#!">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></li>
+                                        <li><a href="#!">PHỤC HỒI XE TAI NẠN Ở ĐÂU TỐT TẠI HÀ NỘI?</a></li>
+                                        <li><a href="#!">BÁO‌ ‌GIÁ‌ ‌SƠN‌ ‌-‌ ‌BẢO‌ ‌ DƯỠNG‌ ‌XE‌ ‌NHANH‌ ‌CHÓNG‌ ‌TẠI‌ ‌ GARAGE‌ ‌QUANG‌ ‌ĐỨC‌ ‌</a></li>
+                                        <li><a href="#!">BẢO HIỂM Ô TÔ VÀ ĐIỀU CẦN BIẾT ĐỂ CHỌN GARA LÀM UY TÍN</a></li>
+                                        <li><a href="#!">ĐỊA CHỈ PHỤC HỒI XE TAI NẠN UY TÍN HÀ NỘI</a></li>
+                                        <li><a href="#!">VỆ SINH BUỒNG ĐỐT GIÁ RẺ - CHẤT LƯỢNG UY TÍN TẠI HÀ NỘI</a></li>
+                                        <li><a href="#!">DỌN NỘI THẤT - ĐÁNH BÓNG XE UY TÍN CHẤT LƯỢNG TẠI GARAGE QUANG ĐỨC</a></li>
+                                        <li><a href="#!">ĐỊA CHỈ BẢO DƯỠNG XE UY TÍN TẠI HÀ NỘI</a></li>
+                                    </ul>
+                                </section>
+                                <form class="form-comment mt-40" action="#!">
+                                    <h2 class="form-comment__title">Viết bình luận của bạn:</h2>
+                                    <div class="row gy-20 gx-30">
+                                        <div class="col-lg-6">
+                                            <input class="form-control" type="text" placeholder="Họ tên:">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input class="form-control" type="email" placeholder="Email:">
+                                        </div>
+                                        <div class="col-12">
+                                            <textarea class="form-control" rows="6" placeholder="Nội dung"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="button button--dark" type="submit">Gửi bình luận</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 col-xl-3">
+                                <section class="aside">
+                                    <h2 class="aside__title">Liên kết</h2>
+                                    <ul class="menu menu-aside">
+                                        <li class="menu-item"><a class="menu-link" href="#!">Trang chủ</a></li>
+                                        <li class="menu-item"><a class="menu-link" href="#!">Giới thiệu</a></li>
+                                        <li class="menu-item menu-item-group"><a class="menu-link" href="#!">Dịch vụ</a><span class="menu-toggle"></span>
+                                            <ul class="menu-sub">
+                                                <li class="menu-item"><a class="menu-link" href="#!">Cứu hộ giao thông</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Tư vấn bảo hiểm</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Bảo trì, bảo dưỡng</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Dịch vụ gầm máy</a></li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Vệ sinh xe</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a class="menu-link" href="#!">Tin tức</a></li>
+                                        <li class="menu-item"><a class="menu-link" href="#!">Liên hệ</a></li>
+                                    </ul>
+                                </section>
+                                <section class="aside">
+                                    <h2 class="aside__title">Tin liên quan</h2>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-4 ml-0">
+                                        <div class="news-3">
+                                            <div class="row g-3">
+                                                <div class="col-auto"><a class="news-3__frame" href="./news-detail.html"><img src="./images/news-1.jpg" alt="" /></a></div>
+                                                <div class="col">
+                                                    <h3 class="news-3__title"><a href="./news-detail.html">Garage phục hồi xe ô tô tai nạn, va chạm tốt nhất tại Hà Nội</a></h3>
+                                                    <div class="news-3__time"><i class="fal fa-calendar-alt me-2"></i>Thứ Fri, 31/12/2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="aside">
+                                    <h2 class="aside__title">Tags</h2>
+                                    <nav class="tags"><a class="tags__item" href="#!">ắc quy</a><a class="tags__item" href="#!">ắc quy ô tô</a><a class="tags__item" href="#!">bảo dưỡng</a><a class="tags__item" href="#!">bảo hiểm</a><a class="tags__item" href="#!">bảo hiểm bắt buộc</a><a class="tags__item" href="#!">bảo hiểm bắt buộc xe ô tô phải có</a>
+                                    </nav>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- footer-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__grid">
+                        <div class="footer__col"><a class="footer__logo" href="./index.html"><img src="./images/logo-footer.png" alt="" /></a>
+                            <div class="footer__name">GARAGE QUANG ĐỨC</div>
+                            <ul class="f-contact">
+                                <li><span class="f-contact__icon"><i class="fas fa-home"></i></span><span><strong>Trụ sở:</strong> 1075 Giải Phóng, Giáp Bát, Hoàng Mai, Hà Nội, Vietnam</span></li>
+                                <li><span class="f-contact__icon"><i class="fas fa-phone"></i></span><span><strong>Hotline:</strong> <a href="tel:0962677726">0962677726</a></span></li>
+                                <li><span class="f-contact__icon"><i class="fas fa-envelope"></i></span><span><strong>Email:</strong> <a href="mailto:Garaquangduc1075@gmail.com">Garaquangduc1075@gmail.com</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__heading">Thông tin công ty</div>
+                            <ul class="f-menu">
+                                <li><a href="#!">Trang chủ</a></li>
+                                <li><a href="#!">Giới thiệu</a></li>
+                                <li><a href="#!">Dịch vụ</a></li>
+                                <li><a href="#!">Tin tức</a></li>
+                                <li><a href="#!">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__heading">Dịch vụ</div>
+                            <ul class="f-menu">
+                                <li><a href="#!">Cứu hộ giao thông</a></li>
+                                <li><a href="#!">Tư vấn bảo hiểm</a></li>
+                                <li><a href="#!">Bảo trì, bảo dưỡng</a></li>
+                                <li><a href="#!">Dịch vụ gầm máy</a></li>
+                                <li><a href="#!">Vệ sinh xe</a></li>
+                                <li><a href="#!">Dịch vụ đồng sơn</a></li>
+                                <li><a href="#!">Phục hồi xe tai nạn</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <div class="f-time">
+                                <div class="f-time__clock"><img src="./images/clock.png" alt="" /></div>
+                                <div class="f-time__heading">GIỜ LÀM VIỆC</div>
+                                <div class="f-time__item"><span>Thứ 2</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 3</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 4</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 5</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 6</span><span>8h00 - 17h00</span></div>
+                                <div class="f-time__item"><span>Thứ 7</span><span>8h00 - 17h00</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__payments"><a href="#!"><img src="./images/icon-mastercard.png" alt="" /></a><a href="#!"><img src="./images/icon-visa.png" alt="" /></a><a href="#!"><img src="./images/icon-maestro.png" alt="" /></a><a href="#!"><img src="./images/icon-paypal.png" alt="" /></a></div>
+                    <div class="footer__copyright">@ Bản quyền thuộc về <a href="#!">Garage Quang Đức</a> | Cung cấp bởi <a href="#!">Sapo</a></div>
+                </div>
+            </footer>
+        </div>
+        <!-- modals + sticky widgets-->
+        <button class="btn-movetop" type="button" data-target="body"><i class="fa fa-arrow-up"></i></button>
+    </body>
+</html>
